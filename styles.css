@@ -1,0 +1,51 @@
+body {
+	background: black;
+	font-family: "Shadows Into Light Two", cursive;
+}
+* {
+	min-height: 10px;
+}
+.postcard {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+
+.no-margin {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(212, 212, 212);
+	padding: 5px 10px;
+	border: none;
+}
